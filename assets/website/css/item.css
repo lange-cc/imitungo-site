@@ -1,6 +1,6 @@
     .slider {
-        width: 100%;
-        margin-top: 20px;
+      width: 100%;
+      margin-top: 20px;
     }
 
     .slick-slide {
@@ -11,8 +11,10 @@
     .slick-slide img {
       width: 100%;
     }
-    .slick-image{
-      width: 100%;height: 40%;
+
+    .slick-image {
+      width: 100% !important;
+      height: auto !important;
     }
 
     .slick-prev:before,
@@ -21,6 +23,7 @@
       margin: 0;
       padding: 0;
     }
+
     .slick-slide {
       transition: all ease-in-out .3s;
       opacity: .2;
@@ -33,46 +36,53 @@
     .slick-current {
       opacity: 1;
     }
-    .plot-image{
+
+    .plot-image {
       width: 60%;
       float: left;
     }
-    .plot-image img{
+
+    .plot-image img {
       width: 100%;
     }
-    .plot-image-right{
+
+    .plot-image-right {
       width: 35%;
       float: left;
       margin-left: 10px;
     }
-   
-  .product-more-content{
+
+    .product-more-content {
       margin-top: 20px;
       text-align: justify;
       margin-bottom: 40px;
-   }
-   .other-information{
+    }
+
+    .other-information {
       list-style: none;
       margin-left: 20px;
       margin-right: 20px;
-   }
-   .other-information li{
-     display: flex;
-     justify-content: space-between;
-     padding:10px 10px;
-     border: 1px solid #ccc;
-     margin-top: 5;
-     margin-bottom: 5px;
-   }
-   .Announcements-container{
-    display: flex;
-  flex-wrap: wrap;
-}
+    }
 
-.Announcements-container a{
-  width: 50%;
-  padding: 10px;
-}
-.Announcements-container a .recent-widget{
-  padding: 10px;
-}
+    .other-information li {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px;
+      border: 1px solid #ccc;
+      margin-top: 5;
+      margin-bottom: 5px;
+    }
+
+    .Announcements-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .Announcements-container a {
+      width: 50%;
+      padding: 10px;
+    }
+
+    .Announcements-container a .recent-widget {
+      padding: 10px;
+    }

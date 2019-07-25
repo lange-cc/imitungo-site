@@ -1,0 +1,26 @@
+.dev-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.create-dev-form{
+    width: 500px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    border-radius: 8px;
+    margin-top: -200px;
+}
+.dev-loading-icon{
+    width: 36px;
+    border: 5px solid #28a745;
+    border-radius: 50%;
+}
+.form-create-widget{
+    padding: 29px;
+}
+.create-form-title{
+    padding: 10px;
+    border-bottom: 10px solid #ccc;
+}

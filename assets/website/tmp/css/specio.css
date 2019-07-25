@@ -1,0 +1,34 @@
+.modal-header
+{
+background-color: #1C94C4;
+}
+
+.modal-footer
+{
+text-align: center;
+}
+
+
+body
+{
+background-image: url('../img/cars.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position:30% 0%;
+}
+
+#now
+{
+/*
+background-image: url('view/img/wallet.png');
+background-size: cover;
+background-position: center;
+border-radius: 0px;
+padding-top:30px;
+*/
+}
+
+#inputs
+{
+padding-left:65px;
+}

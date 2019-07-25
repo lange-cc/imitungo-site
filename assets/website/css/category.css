@@ -1,0 +1,15 @@
+.all-item-widget{
+	width: 100%;
+}
+.all-items{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.all-items a{
+	width: 25%;
+	padding: 10px;
+}
+.all-items a .recent-widget{
+	padding: 10px;
+}

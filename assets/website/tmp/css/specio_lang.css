@@ -1,0 +1,39 @@
+.modal-header
+{
+background-color: #1C94C4;
+}
+
+.modal-footer
+{
+text-align: center;
+}
+
+#donatien {
+width:auto;
+max-width: auto;
+margin: auto;
+border: 0px solid grey;
+/*border: 3px solid #73AD21;*/
+
+}
+
+
+body
+{
+background-image: url('../img/cars.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position:30% 0%;
+min-height: 740px;
+}
+
+#now
+{
+/*
+background-image: url('view/img/wallet.png');
+background-size: cover;
+background-position: center;
+border-radius: 0px;
+padding-top:30px;
+*/
+}

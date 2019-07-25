@@ -1,0 +1,29 @@
+.body-widget{
+	padding: 40px;
+}
+.item-container{
+	padding: 12%;
+	border: 1px black solid;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+.item-container img{
+	width: 80%;
+	height: 200px;
+}
+.item-info-container{
+	padding: 50px 20px 20px 40px;
+	border: 1px black solid;
+	font-weight: 600;
+	background-color: white;
+}
+.item-info-container p{
+	font-size: 16px;
+}
+.item-info-container .col-lg-4{
+	font-weight: 600;
+}
+.item-info-container .col-lg-7{
+	font-weight: 100;
+}

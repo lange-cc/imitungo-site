@@ -1,0 +1,121 @@
+.product-widget{
+    height: 460px;
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 0px 0px 6px #ccc;
+    margin-bottom: 30px;
+}
+.Inventory-items{
+    padding: 40px;
+}
+.Inventory-items .product-image{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inventory-items-option{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.product-details .product-image{
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-color: #fff;
+}
+.product-content{
+    padding: 30px;
+}
+.product-content ul{
+    list-style: none;
+}
+.product-content ul li{
+    margin-bottom: 30px;
+}
+.option-window {
+    width: 100%;
+    height: 260px;
+    background: #fff;
+    border: 1px solid #ffc81d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.option-window h3 {
+    margin-bottom: 23px;
+}
+.option-window img {
+    margin-bottom: 23px;
+    height: 50px;
+}
+.option-window:hover{
+    box-shadow: 0px 0px 10px #323232;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+
+.create-item-widget{
+    padding-top: 30px;
+}
+
+/*
+NAME: Leonard TUMUSHIME
+TITLE: Create new composite item
+VERSION: 0.1
+DATE: 06 may 2019
+
+*/
+.comptable{
+    width: 100%;
+    overflow-x: auto;
+    margin-right: 20px;
+}
+.comptable table{
+    width: 100%;
+}
+.comptable th, .comptable td{
+    border: 1px black solid;
+    padding: 5px;
+    font-weight: 200;
+    font-size: 13px;
+}
+.comptable{
+    margin-left: 20px;
+    text-align: right;
+}
+.comptable button{
+    border: none;
+    color: dodgerblue;
+    text-decoration: none;
+    background-color: transparent;
+}
+.table_container{
+    overflow-x: auto;
+}
+.comptable td{
+    padding: 15px;
+    font-weight: 200;
+    font-size: 15px;
+}
+.comptable button{
+    font-size: 12px;
+}

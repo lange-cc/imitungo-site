@@ -1,0 +1,29 @@
+.body-widget{
+	padding: 40px;
+}
+.logo-container{
+	padding: 10%;
+	border: 1px black solid;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+.logo-container img{
+	width: 100%;
+	margin-top: 20%;
+	height: 40px;
+}
+.client-info-container{
+	padding: 50px 20px 20px 40px;
+	border: 1px black solid;
+	background-color: white;
+}
+.client-info-container p{
+	font-size: 16px;
+}
+.client-info-container .col-lg-4{
+	font-weight: 600;
+}
+.client-info-container .col-lg-7{
+	font-weight: 100;
+}

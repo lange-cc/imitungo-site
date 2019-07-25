@@ -1,0 +1,6 @@
+ $(document).ready(function() {
+                $(".btnPrint").printPage();
+  } );
+
+
+  <a href="printpage" class="btn btn-success btnPrint">Print Prescription</a>
